@@ -1,5 +1,5 @@
 # Contact_Card_LVGL
-
+![contact card](images/contact_card.jpg)
 ## Overview
 
 **Contact_Card_LVGL** is a simple embedded GUI project built with **LVGL
