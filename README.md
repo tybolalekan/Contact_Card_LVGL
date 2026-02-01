@@ -37,7 +37,7 @@ branding on hardware displays.
 1.  Clone the repository:
 
     ``` bash
-    [git clone https://github.com/tybolalekan/Contact_Card_LVGL.git](https://github.com/tybolalekan/Contact_Card_LVGL.git)
+    https://github.com/tybolalekan/Contact_Card_LVGL.git
     ```
 
 2.  Integrate the project into your LVGL-supported platform.
