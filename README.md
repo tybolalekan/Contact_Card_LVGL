@@ -46,6 +46,8 @@ branding on hardware displays.
 
 4.  Build and flash to your target device.
 
+https://lvgl.github.io/lv_img_conv/
+
 ## Customization
 
 You can easily customize: - Profile image
