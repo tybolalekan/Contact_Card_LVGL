@@ -1,5 +1,5 @@
 # Contact_Card_LVGL
-
+![contact card](images/contact_card.jpg)
 ## Overview
 
 **Contact_Card_LVGL** is a simple embedded GUI project built with **LVGL
@@ -45,6 +45,8 @@ branding on hardware displays.
 3.  Configure display and input drivers as required.
 
 4.  Build and flash to your target device.
+
+https://lvgl.github.io/lv_img_conv/
 
 ## Customization
 
