@@ -27,12 +27,53 @@ int main(void)
 
     tft_init();
     touchpad_init();
-    ui_init();
+//	ui_init();
+//
+//	lv_demo_benchmark();
+//	lv_demo_music();
+//	lv_demo_stress();
+//	lv_demo_widgets();
 
-//     lv_demo_benchmark();
-//     lv_demo_music();
-    // lv_demo_stress();
-    lv_demo_widgets();
+//    lv_obj_t *label = lv_label_create(lv_scr_act());
+//    lv_label_set_text(label, "Toyyib Akinkunmi Olalekan");
+//    lv_obj_center(label);
+
+
+    lv_obj_t *title = lv_label_create(lv_scr_act());
+
+    lv_label_set_text(title, "Embedded Systems & IoT Engineer");
+
+    /* Set width & wrap */
+    lv_obj_set_width(title, 440);
+    lv_label_set_long_mode(title, LV_LABEL_LONG_WRAP);
+
+    /* Align */
+    lv_obj_align(title, LV_ALIGN_TOP_MID, 0, 15);
+
+///////////////////////////////////////////////////////////////
+    lv_obj_t *body = lv_label_create(lv_scr_act());
+
+    lv_obj_set_width(body, 440);
+    lv_label_set_long_mode(body, LV_LABEL_LONG_WRAP);
+
+    lv_label_set_text(body,
+        "10+ years building scalable connected\n"
+        "hardware and real-time firmware.\n\n"
+        "Experienced in STM32, ESP32,\n"
+        "and nRF52 platforms with FreeRTOS.\n\n"
+        "End-to-end product development:\n"
+        "schematic & PCB design (2 - 6 layers),\n"
+        "connectivity, and cloud integration.\n\n"
+        "Delivered reliable systems across\n"
+        "energy, infrastructure, and health-tech."
+    );
+
+    /* Place body under title */
+    lv_obj_align_to(body, title, LV_ALIGN_OUT_BOTTOM_MID, 0, 10);
+
+
+
+
 
     while (1)
     {
